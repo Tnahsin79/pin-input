@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import PinInput from "react-pin-input";
+//import PinInput from "react-pin-input";
+import PinInput from "./PinInput";
 
 const Pin = () => {
     const [value, setValue] = useState("");
